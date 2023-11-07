@@ -1,0 +1,70 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.page-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.page-item.disabled {
+  color: #888;
+  pointer-events: none;
+}
+
+.page-item.active {
+  background-color: #f0f0f0;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+.scrape-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.scrape-button:hover {
+    background-color: #2980b9;
+}
+
+.table-container {
+    margin-top: 30px;
+}
